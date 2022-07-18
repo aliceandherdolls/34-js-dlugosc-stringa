@@ -1,9 +1,14 @@
 let textOne = "Uwielbiam JavaScript";
 let textTwo = "Jestem świetnym programistą";
 
-if (textOne.length < textTwo.length) {
-    console.log(textTwo);
-} else if (textOne.length > textTwo.length) {
-    console.log(textOne);
+
+function action(par1, par2) {
+    if (par1.lenght < par2.lenght) {
+        return par1;
+    } else {
+        return par2;
+    }
 }
 
+
+console.log(action("Uwielbiam JavaScript", "Jestem świetnym programistą"));
