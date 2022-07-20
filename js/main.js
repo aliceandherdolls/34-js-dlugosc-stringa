@@ -1,9 +1,6 @@
-let textOne = "Uwielbiam JavaScript";
-let textTwo = "Jestem świetnym programistą";
-
 
 function action(par1, par2) {
-    if (par1.lenght < par2.lenght) {
+    if (par1.length < par2.length) {
         return par1;
     } else {
         return par2;
